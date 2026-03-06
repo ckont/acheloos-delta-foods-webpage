@@ -1,0 +1,10 @@
+# Serve index.html for /en so the client-side language route works
+[[redirects]]
+  from = "/en"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/*"
+  to = "/index.html"
+  status = 200
